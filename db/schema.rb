@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130714192122) do
+ActiveRecord::Schema.define(:version => 20130714193942) do
 
   create_table "languages", :force => true do |t|
     t.string   "language"
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20130714192122) do
     t.string   "level"
     t.string   "email"
     t.string   "login"
+    t.string   "name"
   end
 
 end
