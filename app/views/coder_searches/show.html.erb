@@ -6,7 +6,7 @@ nerds in your area:
 
 <%- @results.each do |result| %>
 <p><%= result.firstname %> is a great match for you! You can contact him/her at this email: 
-<% result.level %> <% result.language.language %>
+<%= result.email %>
 </p>
 <% end %>
 
